@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng Hồ Nổi Bật - Mock API</title>
+    <!-- Liên kết file CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== PHẦN HIỂN THỊ SẢN PHẨM ========== -->
+    <div class="container">
+        <h2 class="section-title">ĐỒNG HỒ NỔI BẬT NHẤT</h2>
+
+        <!-- Div này sẽ được JS chèn sản phẩm vào -->
+        <div class="product-grid" id="product-grid"></div>
+    </div>
+
+    <!-- ========== FORM THÊM SẢN PHẨM ========== -->
+    <div class="form-container">
+        <form id="add-product-form">
+
+            <!-- Dropdown chọn danh mục (load từ API) -->
+            <label>Danh mục sản phẩm.</label>
+            <select id="category-select"></select>
+
+            <!-- Dropdown chọn loại sản phẩm -->
+            <label>Thông tin.</label>
+            <select id="featured-select" class="featured-select">
+                <option value="true">Sản phẩm nổi bật</option>
+                <option value="false">Sản phẩm thường</option>
+            </select>
+
+            <!-- Các input nhập thông tin -->
+            <input type="text" id="product-name" placeholder="Tên sản phẩm">
+            <input type="number" id="product-price" placeholder="Giá sản phẩm">
+            <input type="number" id="product-old-price" placeholder="Giá cũ">
+
+            <!-- Upload ảnh -->
+            <div class="file-label">
+                Thêm ảnh sản phẩm <span class="required">* Bắt buộc</span>
+            </div>
+            <input type="file" id="product-image" accept="image/*">
+
+            <!-- Nút submit -->
+            <button type="submit" class="btn-submit">➡ Đồng ý thêm</button>
+        </form>
+    </div>
+
+    <!-- ========== NÚT SCROLL LÊN/XUỐNG ========== -->
+    <div class="scroll-buttons">
+        <button class="scroll-btn" onclick="scrollLenDau()">&#9650;</button>
+        <button class="scroll-btn" onclick="scrollXuongCuoi()">&#9660;</button>
+    </div>
+
+    <!-- Liên kết file JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
