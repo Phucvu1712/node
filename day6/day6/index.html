@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng Hồ Nổi Bật - Mock API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2 class="section-title">ĐỒNG HỒ NỔI BẬT NHẤT</h2>
+
+        <div class="product-grid" id="product-grid"></div>
+    </div>
+
+    <div class="form-container">
+        <form id="add-product-form">
+            <label>Danh mục sản phẩm.</label>
+            <select id="category-select"></select>
+
+            <label>Thông tin.</label>
+            <select id="featured-select" class="featured-select">
+                <option value="true">Sản phẩm nổi bật</option>
+                <option value="false">Sản phẩm thường</option>
+            </select>
+            <input type="text" id="product-name" placeholder="Tên sản phẩm">
+            <input type="number" id="product-price" placeholder="Giá sản phẩm">
+            <input type="number" id="product-old-price" placeholder="Giá cũ">
+
+            <div class="file-label">
+                Thêm ảnh sản phẩm <span class="required">* Bắt buộc</span>
+            </div>
+            <input type="file" id="product-image" accept="image/*">
+            <button type="submit" class="btn-submit">➡ Đồng ý thêm</button>
+        </form>
+    </div>
+    <div class="scroll-buttons">
+        <button class="scroll-btn" onclick="scrollLenDau()">&#9650;</button>
+        <button class="scroll-btn" onclick="scrollXuongCuoi()">&#9660;</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

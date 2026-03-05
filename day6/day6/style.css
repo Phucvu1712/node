@@ -1,0 +1,160 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #333;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border: 3px solid #003399;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 15px;
+  border-bottom: 2px solid #003399;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.product-card .product-name {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.price-wrapper {
+  margin-bottom: 10px;
+}
+
+.sale-price {
+  color: #cc0000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+.btn-buy {
+  padding: 6px 18px;
+  border: 2px solid #003399;
+  color: #003399;
+  background: #fff;
+  cursor: pointer;
+}
+
+.btn-buy:hover {
+  background: #003399;
+  color: #fff;
+}
+
+.scroll-buttons {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.scroll-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: #888;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.scroll-btn:hover {
+  background: #555;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border: 3px solid #003399;
+  padding: 25px 30px;
+}
+
+.form-container label {
+  display: block;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.form-container select,
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.featured-select {
+  border: 2px solid #f0ad4e !important;
+}
+
+.file-label {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.file-label .required {
+  color: red;
+  font-weight: bold;
+}
+
+.btn-submit {
+  display: block;
+  margin: 20px auto 0;
+  padding: 8px 25px;
+  background: #d9534f;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #c9302c;
+}

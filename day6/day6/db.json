@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Đồng hồ Orinent Nam 6",
+      "category": "dong-ho-nam",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://orient-watch.vn/wp-content/uploads/2022/10/ra-ac0f08g10b_1620716035.png",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "name": "Đồng hồ Orinent Nam 1",
+      "category": "dong-ho-nam",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://orient-watch.vn/wp-content/uploads/2022/10/ra-ac0f08g10b_1620716035.png",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "name": "Đồng hồ Orinent Nam 3",
+      "category": "dong-ho-nam",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://orient-watch.vn/wp-content/uploads/2022/10/ra-ac0f08g10b_1620716035.png",
+      "featured": true
+    },
+    {
+      "id": "4",
+      "name": "Đồng hồ Orinent Nam 4",
+      "category": "dong-ho-nam",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://orient-watch.vn/wp-content/uploads/2022/10/ra-ac0f08g10b_1620716035.png",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "name": "Đồng hồ COLE Nữ 5",
+      "category": "dong-ho-nu",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://product.hstatic.net/1000187560/product/kenneth-cole-kc50198001-nu-1-1-org_b4b8e84b90c04c7a806a7ad57ecc6ac6_large.jpg",
+      "featured": true
+    },
+    {
+      "id": "6",
+      "name": "Đồng hồ COLE Nữ 6",
+      "category": "dong-ho-nu",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://product.hstatic.net/1000187560/product/kenneth-cole-kc50198001-nu-1-1-org_b4b8e84b90c04c7a806a7ad57ecc6ac6_large.jpg",
+      "featured": true
+    },
+    {
+      "id": "7",
+      "name": "Đồng hồ COLE Nữ 7",
+      "category": "dong-ho-nu",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://product.hstatic.net/1000187560/product/kenneth-cole-kc50198001-nu-1-1-org_b4b8e84b90c04c7a806a7ad57ecc6ac6_large.jpg",
+      "featured": true
+    },
+    {
+      "id": "8",
+      "name": "Đồng hồ COLE Nữ 8",
+      "category": "dong-ho-nu",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://product.hstatic.net/1000187560/product/kenneth-cole-kc50198001-nu-1-1-org_b4b8e84b90c04c7a806a7ad57ecc6ac6_large.jpg",
+      "featured": true
+    },
+    {
+      "id": "d781",
+      "name": "Đồng hồ Orinent Nam 10",
+      "category": "dong-ho-nam",
+      "price": 2900000,
+      "oldPrice": 3400000,
+      "image": "https://orient-watch.vn/wp-content/uploads/2022/10/ra-ac0f08g10b_1620716035.png",
+      "featured": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Đồng hồ nam",
+      "slug": "dong-ho-nam"
+    },
+    {
+      "id": "2",
+      "name": "Đồng hồ nữ",
+      "slug": "dong-ho-nu"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

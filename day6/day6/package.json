@@ -1,0 +1,8 @@
+{
+    "name": "day6-mock-api",
+    "version": "1.0.0",
+    "description": "Mock API đồng hồ - dùng JSON Server",
+    "scripts": {
+        "start": "npx -y json-server --watch db.json --port 3000"
+    }
+}
