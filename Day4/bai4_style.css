@@ -1,0 +1,42 @@
+body {
+    font-family: Arial;
+    background: #5f9ea0;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+.btn-group {
+    margin-top: 15px;
+}
+
+button {
+    margin-right: 10px;
+    color: red;
+}
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background: cyan;
+}
+
+th, td {
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}

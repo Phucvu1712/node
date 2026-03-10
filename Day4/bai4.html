@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luu Tru</title>
+    <link rel="stylesheet" href="bai4_style.css">
+    <script src="data.js"></script>
+    <script src="bai4_script.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <label>Fullname_Customer</label>
+    <input type="text" id="fullname">
+
+    <label>Id_Pro</label>
+    <input type="text" id="idPro">
+
+    <label>Name_Pro</label>
+    <input type="text" id="namePro">
+
+    <label>Quantity_Pro</label>
+    <input type="text" id="quantity">
+
+    <label>Price_Pro</label>
+    <input type="text" id="price">
+
+    <div class="btn-group">
+        <button onclick="saveData()">Save</button>
+        <button onclick="showData()">Show</button>
+        <button onclick="resetForm()">Reset</button>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Auto_Increment</th>
+            <th>Fullname_Customer</th>
+            <th>Id_Pro</th>
+            <th>Name_Pro</th>
+            <th>Quantity_Pro</th>
+            <th>Price_Pro</th>
+            <th>Discount</th>
+            <th>Amount</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+</body>
+</html>
