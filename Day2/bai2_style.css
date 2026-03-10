@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ddd;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+    background: #bdbdbd;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.row label {
+    width: 120px;
+}
+
+.row input, .row select {
+    flex: 1;
+    padding: 5px;
+}
+
+.summary input {
+    background: #eee;
+}
+
+.result {
+    color: red;
+    font-size: 26px;
+    margin: 20px 0;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 6px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bang diem cua em</title>
+  <link rel="stylesheet" href="bai2_style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>BANG DIEM CUA EM</h1>
+
+    <div class="row">
+      <label>Semester1:</label>
+      <input type="number" id="s1" value="9">
+    </div>
+
+    <div class="row">
+      <label>Semester2:</label>
+      <input type="number" id="s2" value="10">
+    </div>
+
+    <div class="row">
+      <label>Year:</label>
+      <select id="year">
+        <option value="1">1</option>
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+      </select>
+    </div>
+
+    <div class="row summary">
+      <label>Summarise:</label>
+      <input type="text" id="avg" readonly>
+    </div>
+
+    <div class="result" id="rank"></div>
+
+    <div class="buttons">
+      <button onclick="calculate()">OK</button>
+      <button onclick="resetForm()">Cancel</button>
+    </div>
+  </div>
+
+  <script src="bai2_script.js"></script>
+
+</body>
+</html>
